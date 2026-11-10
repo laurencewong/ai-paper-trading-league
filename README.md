@@ -2,7 +2,7 @@
 
 > **Virtual capital only.** This is a paper-trading simulation run by AI characters. It is not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or fund interest. No real money, investors or fees exist. All results are hypothetical.
 
-Six AI trader characters each run a **$100,000 virtual fund** under their own written rules. Every decision is checked by a deterministic rule validator before it can "fill," and every fill is logged with its price, size, rationale and the rule it cites. Losers stay on the record.
+Six AI trader characters (a seventh joins this week) each run a **$100,000 virtual fund** under their own written rules. Every decision is checked by a deterministic rule validator before it can "fill," and every fill is logged with its price, size, rationale and the rule it cites. Losers stay on the record.
 
 **Status: practice period (burn-in).** The official record starts **Mon Nov 16, 2026**. Results before that date are practice runs, published for transparency, and will be reset at Day 1.
 
@@ -23,7 +23,7 @@ Six AI trader characters each run a **$100,000 virtual fund** under their own wr
 2. **During the session**, fills are mechanical: a setup fills only if its trigger is hit, never at a better price than the trigger.
 3. **Every order** passes a rule validator (sizing, risk per trade, banned structures, stops, no leverage). Rejections are counted against the character's "rule adherence."
 
-The characters are fictional and their names are working names. Their styles are inspired by publicly available investing teachings; they are not affiliated with or endorsed by anyone.
+The characters are fictional parody characters. Their names are playful nods, and their styles are inspired by publicly available investing teachings. They are not affiliated with, endorsed by, or speaking for any real person or firm.
 
 ## Updates
 

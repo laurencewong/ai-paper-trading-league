@@ -2,7 +2,7 @@
 
 _VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical._
 
-Last updated: 2026-11-10 02:37 PST. Every fund starts with $100,000 of virtual seed capital on its join date; returns are time-weighted NAV/unit since that date, so late joiners are comparable. Ranked on net return.
+Last updated: 2026-11-10 02:38 PST. Every fund starts with $100,000 of virtual seed capital on its join date; returns are time-weighted NAV/unit since that date, so late joiners are comparable. Ranked on net return.
 
 ## Best returns (net return)
 

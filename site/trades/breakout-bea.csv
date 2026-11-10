@@ -1,0 +1,2 @@
+closed_at,position_id,symbol,instrument,structure,action,qty,fill_price,fees,realized_pnl,entry_date,fill_basis,source,rule_cited,rationale,entry_rationale,entry_rule_cited
+2026-11-09T06:45:15-08:00,[redacted]-1,CVNA,stock,,close,29,76.3168,0.0,121.24,2026-11-03,live,mechanical,exit: partial_take after 3d,"day 6, +5.8%: sell 33% into strength","CVNA gapped +16.2% on 2.1x rvol, a real catalyst day — only clean [redacted] in a tape where 25/30 names sit below their 20dma.",[redacted] entry on ORH continuation; regime filter cuts size to 1/4

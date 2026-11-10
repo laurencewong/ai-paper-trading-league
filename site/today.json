@@ -1,0 +1,123 @@
+{
+ "session": "2026-11-09",
+ "cutoff": "2026-11-09T13:34:28-08:00",
+ "cutoff_run_id": "setups@2026-11-09T13:30:10-08:00",
+ "generated": "2026-11-09T13:34:28-08:00",
+ "for_date": "2026-11-10",
+ "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
+ "witness": "unwitnessed",
+ "witness_note": "hashes are local only (unwitnessed): no public timestamp yet",
+ "hash_rule": "sha256 of the file named in 'file', byte for byte",
+ "funds": [
+  {
+   "slug": "umbrella-ella",
+   "status": "committed",
+   "sha256": "11624d2f96fef1174d37b711d8b1439c2cb0a5a0c805b7437b7defcae4994c17",
+   "file": "setups/2026-11-10/umbrella-ella.jsonl",
+   "committed_at": "2026-11-09T13:32:05-08:00",
+   "setups": [
+    {
+     "direction": "long",
+     "entry_trigger": {
+      "ivr_min": null,
+      "price": 25.45,
+      "type": "buy_limit",
+      "underlying_above": null,
+      "underlying_below": null,
+      "vix_max": null,
+      "vix_min": null
+     },
+     "for_date": "2026-11-10",
+     "instrument": "stock",
+     "kind": "setup",
+     "rule_cited": "The Four Quadrants framework; Diversification is the holy grail",
+     "setup_id": "2026-11-10-umbrella-ella-1",
+     "size_pct": 4.99,
+     "slug": "umbrella-ella",
+     "stop": 23.5,
+     "structure": "stock",
+     "symbol": "SCHP",
+     "target": {
+      "price": 26.5,
+      "profit_pct": null
+     },
+     "teach": "Spreading money across the four growth-and-inflation combinations protects you when any one of them turns out wrong.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-10",
+     "why": "Inflation-protected bonds fell about one and a half percent this month while stocks fell three percent, so adding a little balances the mix."
+    }
+   ]
+  },
+  {
+   "slug": "macro-max",
+   "status": "committed",
+   "sha256": "6fdcbb56c6474ca7b5dd78319660cc21eb222b72c05eac6cf40e14f05b581970",
+   "file": "setups/2026-11-10/macro-max.jsonl",
+   "committed_at": "2026-11-09T13:32:31-08:00",
+   "setups": []
+  },
+  {
+   "slug": "careful-carl",
+   "status": "committed",
+   "sha256": "99c6b996b4d0f6f766a030d80aeb5d84d333eeff231d72f0e8c94b4de0efd610",
+   "file": "setups/2026-11-10/careful-carl.jsonl",
+   "committed_at": "2026-11-09T13:33:32-08:00",
+   "setups": [
+    {
+     "direction": "long",
+     "entry_trigger": {
+      "ivr_min": null,
+      "price": 62.0,
+      "type": "buy_stop",
+      "underlying_above": null,
+      "underlying_below": null,
+      "vix_max": null,
+      "vix_min": null
+     },
+     "for_date": "2026-11-10",
+     "instrument": "stock",
+     "kind": "setup",
+     "rule_cited": "[redacted] + Pendulum of Mood (consensus blames the dollar for the emerging-markets selloff, but the dollar has stopped climbing while emerging markets keep falling)",
+     "setup_id": "2026-11-10-careful-carl-1",
+     "size_pct": 9.16,
+     "slug": "careful-carl",
+     "stop": 57.5,
+     "structure": "stock",
+     "symbol": "EEM",
+     "target": {
+      "price": 68.0,
+      "profit_pct": null
+     },
+     "teach": "A price drop can keep going out of habit even after the reason behind it fades; watch for that gap closing.",
+     "time_stop_days": 60,
+     "valid_until": "2026-11-10",
+     "why": "Emerging markets fell almost nine percent this month even though the dollar stopped rising, so I expect a catch-up bounce if today's rally confirms."
+    }
+   ]
+  },
+  {
+   "slug": "breakout-bea",
+   "status": "committed",
+   "sha256": "913a96c68b62581e4d24768fd03856e02150042a6bacbd96b127e3ce1e3aab23",
+   "file": "setups/2026-11-10/breakout-bea.jsonl",
+   "committed_at": "2026-11-09T13:30:39-08:00",
+   "setups": []
+  },
+  {
+   "slug": "reflexive-rex",
+   "status": "committed",
+   "sha256": "18683b3317248f492a52a352a02cc0adb7960e82219b942f34f6fd16f7ec0569",
+   "file": "setups/2026-11-10/reflexive-rex.jsonl",
+   "committed_at": "2026-11-09T13:34:28-08:00",
+   "setups": []
+  },
+  {
+   "slug": "premium-pete",
+   "status": "committed",
+   "sha256": "60253d9b1f053dc6b7c672947dcceac2d5a620bd2ebbd4a6a3ad6942a2d1c4b5",
+   "file": "setups/2026-11-10/premium-pete.jsonl",
+   "committed_at": "2026-11-09T13:31:03-08:00",
+   "setups": []
+  }
+ ]
+}

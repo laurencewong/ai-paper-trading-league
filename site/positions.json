@@ -2,7 +2,7 @@
  "session": "2026-11-09",
  "cutoff": "2026-11-09T13:34:28-08:00",
  "cutoff_run_id": "setups@2026-11-09T13:30:10-08:00",
- "generated": "2026-11-10T02:42:38-08:00",
+ "generated": "2026-11-10T03:17:10-08:00",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "value_rule": "stocks: market value at the last mark; options: capital at risk (collateral, or premium paid)",
  "funds": [

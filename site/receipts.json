@@ -1,48 +1,50 @@
 {
- "session": "2026-11-09",
- "cutoff": "2026-11-09T13:34:28-08:00",
- "cutoff_run_id": "setups@2026-11-09T13:30:10-08:00",
- "generated": "2026-11-10T03:05:00-08:00",
- "receipts_day": "2026-11-09",
+ "session": "2026-11-10",
+ "cutoff": "2026-11-10T13:32:32-08:00",
+ "cutoff_run_id": "setups@2026-11-10T13:30:10-08:00",
+ "generated": "2026-11-10T13:32:32-08:00",
+ "receipts_day": "2026-11-10",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "receipts": [
   {
-   "setup_id": "2026-11-05-umbrella-ella-1",
+   "setup_id": "2026-11-03-breakout-bea-1",
+   "slug": "breakout-bea",
+   "for_date": "2026-11-03",
+   "symbol": "CVNA",
+   "state": "stopped",
+   "ts": "2026-11-10T12:45:12-08:00",
+   "exit_price": 72.0999,
+   "exit_reason": "stop 72.14 touched (low 70.29)",
+   "realized_pnl": 119.04,
+   "r_multiple": 0.45,
+   "committed_at": "2026-11-02T13:30:38-08:00",
+   "sha256_short": "4e7fe8cd",
+   "setup_file": "setups/2026-11-03/breakout-bea.jsonl"
+  },
+  {
+   "setup_id": "2026-11-10-umbrella-ella-1",
    "slug": "umbrella-ella",
-   "for_date": "2026-11-05",
-   "symbol": "VGLT",
+   "for_date": "2026-11-10",
+   "symbol": "SCHP",
    "state": "not_triggered",
-   "ts": "2026-11-09T06:45:15-08:00",
+   "ts": "2026-11-10T13:30:41-08:00",
    "r_multiple": 0.0,
-   "committed_at": "2026-11-04T13:32:36-08:00",
-   "sha256_short": "be1df073",
-   "setup_file": "setups/2026-11-05/umbrella-ella.jsonl"
+   "committed_at": "2026-11-09T13:32:05-08:00",
+   "sha256_short": "11624d2f",
+   "setup_file": "setups/2026-11-10/umbrella-ella.jsonl"
+  },
+  {
+   "setup_id": "2026-11-10-careful-carl-1",
+   "slug": "careful-carl",
+   "for_date": "2026-11-10",
+   "symbol": "EEM",
+   "state": "not_triggered",
+   "ts": "2026-11-10T13:31:25-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-09T13:33:32-08:00",
+   "sha256_short": "99c6b996",
+   "setup_file": "setups/2026-11-10/careful-carl.jsonl"
   }
  ],
- "system_gaps": [
-  {
-   "slug": "umbrella-ella",
-   "why": "no commit by the 03:00 PT deadline"
-  },
-  {
-   "slug": "macro-max",
-   "why": "no commit by the 03:00 PT deadline"
-  },
-  {
-   "slug": "careful-carl",
-   "why": "no commit by the 03:00 PT deadline"
-  },
-  {
-   "slug": "breakout-bea",
-   "why": "no commit by the 03:00 PT deadline"
-  },
-  {
-   "slug": "reflexive-rex",
-   "why": "no commit by the 03:00 PT deadline"
-  },
-  {
-   "slug": "premium-pete",
-   "why": "no commit by the 03:00 PT deadline"
-  }
- ]
+ "system_gaps": []
 }

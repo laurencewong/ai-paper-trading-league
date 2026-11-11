@@ -1,22 +1,22 @@
 {
- "session": "2026-11-10",
- "cutoff": "2026-11-10T13:32:32-08:00",
- "cutoff_run_id": "setups@2026-11-10T13:30:10-08:00",
- "generated": "2026-11-10T14:05:03-08:00",
+ "session": "2026-11-11",
+ "cutoff": "2026-11-11T13:33:58-08:00",
+ "cutoff_run_id": "setups@2026-11-11T13:30:11-08:00",
+ "generated": "2026-11-11T14:05:04-08:00",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "value_rule": "stocks: market value at the last mark; options: capital at risk (collateral, or premium paid)",
  "funds": [
   {
    "slug": "breakout-bea",
    "status": "in cash",
-   "as_of": "2026-11-10T13:30:17-08:00",
+   "as_of": "2026-11-11T13:30:41-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "premium-pete",
    "status": "invested",
-   "as_of": "2026-11-10T13:30:41-08:00",
+   "as_of": "2026-11-11T13:31:04-08:00",
    "largest": {
     "symbol": "TLT",
     "instrument": "option",
@@ -56,16 +56,16 @@
   {
    "slug": "umbrella-ella",
    "status": "invested",
-   "as_of": "2026-11-10T13:30:57-08:00",
+   "as_of": "2026-11-11T13:31:40-08:00",
    "largest": {
     "symbol": "TLT",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Risk-parity: balance risk contributions, not dollar weights",
-    "position_value": 9867,
+    "position_value": 9872,
     "value_basis": "market value",
-    "pct_of_fund": 10.0,
+    "pct_of_fund": 9.9,
     "entry_date": "2026-10-30"
    },
    "positions": [
@@ -75,9 +75,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Risk-parity: balance risk contributions, not dollar weights",
-     "position_value": 9867,
+     "position_value": 9872,
      "value_basis": "market value",
-     "pct_of_fund": 10.0,
+     "pct_of_fund": 9.9,
      "entry_date": "2026-10-30"
     },
     {
@@ -86,9 +86,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework; Diversification is the holy grail",
-     "position_value": 8999,
+     "position_value": 9118,
      "value_basis": "market value",
-     "pct_of_fund": 9.1,
+     "pct_of_fund": 9.2,
      "entry_date": "2026-10-30"
     },
     {
@@ -97,7 +97,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework; Diversification is the holy grail",
-     "position_value": 8919,
+     "position_value": 8912,
      "value_basis": "market value",
      "pct_of_fund": 9.0,
      "entry_date": "2026-10-30"
@@ -108,7 +108,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Markets discount the future, not the present; Four Quadrants framework",
-     "position_value": 8182,
+     "position_value": 8203,
      "value_basis": "market value",
      "pct_of_fund": 8.3,
      "entry_date": "2026-10-30"
@@ -119,7 +119,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Diversification is the holy grail",
-     "position_value": 6960,
+     "position_value": 6965,
      "value_basis": "market value",
      "pct_of_fund": 7.0,
      "entry_date": "2026-10-30"
@@ -130,7 +130,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework",
-     "position_value": 6844,
+     "position_value": 6842,
      "value_basis": "market value",
      "pct_of_fund": 6.9,
      "entry_date": "2026-10-30"
@@ -141,9 +141,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Diversification is the holy grail",
-     "position_value": 5965,
+     "position_value": 6013,
      "value_basis": "market value",
-     "pct_of_fund": 6.0,
+     "pct_of_fund": 6.1,
      "entry_date": "2026-10-30"
     },
     {
@@ -152,9 +152,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework",
-     "position_value": 5910,
+     "position_value": 5843,
      "value_basis": "market value",
-     "pct_of_fund": 6.0,
+     "pct_of_fund": 5.9,
      "entry_date": "2026-10-30"
     },
     {
@@ -163,9 +163,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework",
-     "position_value": 5084,
+     "position_value": 5150,
      "value_basis": "market value",
-     "pct_of_fund": 5.1,
+     "pct_of_fund": 5.2,
      "entry_date": "2026-10-30"
     },
     {
@@ -174,7 +174,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "[redacted] + Four Quadrants framework (growth-up/inflation-down sleeve)",
-     "position_value": 4770,
+     "position_value": 4812,
      "value_basis": "market value",
      "pct_of_fund": 4.8,
      "entry_date": "2026-11-02"
@@ -184,14 +184,14 @@
   {
    "slug": "macro-max",
    "status": "invested",
-   "as_of": "2026-11-10T13:31:25-08:00",
+   "as_of": "2026-11-11T13:32:13-08:00",
    "largest": {
     "symbol": "TLT",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Macro-First Trade Construction: read the tape (yield curve, credit, dollar) before picking the vehicle",
-    "position_value": 9867,
+    "position_value": 9872,
     "value_basis": "market value",
     "pct_of_fund": 9.9,
     "entry_date": "2026-10-30"
@@ -203,7 +203,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Macro-First Trade Construction: read the tape (yield curve, credit, dollar) before picking the vehicle",
-     "position_value": 9867,
+     "position_value": 9872,
      "value_basis": "market value",
      "pct_of_fund": 9.9,
      "entry_date": "2026-10-30"
@@ -214,7 +214,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Macro-tape coherence rubric (naming the dominant variable) + Decision rule: conviction <8 => starter 1-2% only",
-     "position_value": 2010,
+     "position_value": 1963,
      "value_basis": "market value",
      "pct_of_fund": 2.0,
      "entry_date": "2026-11-02"
@@ -225,7 +225,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Macro-tape coherence rubric (naming cycle rotation) + Decision rule: conviction below eight gets starter size only",
-     "position_value": 1924,
+     "position_value": 1934,
      "value_basis": "market value",
      "pct_of_fund": 1.9,
      "entry_date": "2026-11-05"
@@ -246,14 +246,14 @@
   {
    "slug": "careful-carl",
    "status": "invested",
-   "as_of": "2026-11-10T13:32:03-08:00",
+   "as_of": "2026-11-11T13:32:47-08:00",
    "largest": {
     "symbol": "IEF",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Where Are We in the Cycle? Q1/Q6 (decelerating growth + early-cycle credit/rate signal)",
-    "position_value": 7918,
+    "position_value": 7912,
     "value_basis": "market value",
     "pct_of_fund": 7.9,
     "entry_date": "2026-11-02"
@@ -265,7 +265,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Where Are We in the Cycle? Q1/Q6 (decelerating growth + early-cycle credit/rate signal)",
-     "position_value": 7918,
+     "position_value": 7912,
      "value_basis": "market value",
      "pct_of_fund": 7.9,
      "entry_date": "2026-11-02"
@@ -276,7 +276,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Asymmetric Construction (quality balance sheet = structurally bounded downside)",
-     "position_value": 7868,
+     "position_value": 7898,
      "value_basis": "market value",
      "pct_of_fund": 7.9,
      "entry_date": "2026-11-02"
@@ -287,9 +287,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "[redacted] rubric + Three-Stage Cycle Detection (growth in bull stage-3 unwind, value not yet euphoric)",
-     "position_value": 7741,
+     "position_value": 7821,
      "value_basis": "market value",
-     "pct_of_fund": 7.7,
+     "pct_of_fund": 7.8,
      "entry_date": "2026-11-02"
     }
    ]
@@ -297,16 +297,16 @@
   {
    "slug": "reflexive-rex",
    "status": "invested",
-   "as_of": "2026-11-10T13:32:32-08:00",
+   "as_of": "2026-11-11T13:33:58-08:00",
    "largest": {
     "symbol": "PSQ",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Bias-Gap Framework (flawed premise: AI-capex credit loop) + Reflexivity-stage rubric (3-4, reinforcement/twilight) + Vehicle-Match Framework (PSQ native match vs forced 180+DTE option mismatch)",
-    "position_value": 5025,
+    "position_value": 4908,
     "value_basis": "market value",
-    "pct_of_fund": 5.0,
+    "pct_of_fund": 4.9,
     "entry_date": "2026-10-30"
    },
    "positions": [
@@ -316,9 +316,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Bias-Gap Framework (flawed premise: AI-capex credit loop) + Reflexivity-stage rubric (3-4, reinforcement/twilight) + Vehicle-Match Framework (PSQ native match vs forced 180+DTE option mismatch)",
-     "position_value": 5025,
+     "position_value": 4908,
      "value_basis": "market value",
-     "pct_of_fund": 5.0,
+     "pct_of_fund": 4.9,
      "entry_date": "2026-10-30"
     }
    ]

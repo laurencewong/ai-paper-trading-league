@@ -1,8 +1,8 @@
 {
- "session": "2026-11-11",
- "cutoff": "2026-11-11T13:33:58-08:00",
- "cutoff_run_id": "setups@2026-11-11T13:30:11-08:00",
- "generated": "2026-11-11T14:05:04-08:00",
+ "session": "2026-11-12",
+ "cutoff": "2026-11-12T13:34:32-08:00",
+ "cutoff_run_id": "setups@2026-11-12T13:30:11-08:00",
+ "generated": "2026-11-12T14:05:00-08:00",
  "title": "Paper Trading League",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "funds": [
@@ -11,17 +11,17 @@
    "fund_name": "Qullabee's Momentum Fund (virtual)",
    "mandate": "Swing-trade the strongest leaders on objective breakout triggers with tight structural stops.",
    "joined": "2026-10-30",
-   "net_return": 0.0017764109999998112,
+   "net_return": 0.001834210999999808,
    "annualized_net": null,
-   "vs_benchmark": -0.006925546352970935,
+   "vs_benchmark": -0.003256852952394196,
    "max_drawdown": -0.005490308288610635,
-   "sharpe": 1.0653001484203108,
+   "sharpe": 1.0385342311359431,
    "win_rate": 1.0,
    "adherence": 1.0,
    "fills": 1,
    "closed_trades": 1,
    "rejected": 0,
-   "nav_per_unit": 100.17764109999999,
+   "nav_per_unit": 100.18342109999999,
    "nav_series": [
     100.0,
     100.01314,
@@ -30,7 +30,8 @@
     99.95982,
     100.420287,
     100.171841,
-    100.177641
+    100.177641,
+    100.183421
    ]
   },
   {
@@ -38,17 +39,17 @@
    "fund_name": "Sosnoozle's Option Income Fund (virtual)",
    "mandate": "Sell rich option premium on liquid funds and mega-caps: small positions, mechanical exits, defined risk.",
    "joined": "2026-10-30",
-   "net_return": -0.0008015000000001216,
+   "net_return": -0.001237900000000236,
    "annualized_net": null,
-   "vs_benchmark": -0.009503457352970868,
+   "vs_benchmark": -0.00632896395239424,
    "max_drawdown": -0.0019211529317532117,
-   "sharpe": -2.3227627768652237,
+   "sharpe": -3.3205446241358336,
    "win_rate": 1.0,
    "adherence": 0.75,
    "fills": 3,
    "closed_trades": 1,
    "rejected": 1,
-   "nav_per_unit": 99.91984999999998,
+   "nav_per_unit": 99.87620999999997,
    "nav_series": [
     100.00245,
     99.92413,
@@ -57,7 +58,8 @@
     99.95416,
     99.95108,
     99.88198,
-    99.91985
+    99.91985,
+    99.87621
    ]
   },
   {
@@ -65,17 +67,17 @@
    "fund_name": "Flamalio's Balanced Fund (virtual)",
    "mandate": "Balance risk across growth and inflation regimes, then add small tilts on top.",
    "joined": "2026-10-30",
-   "net_return": -0.006111446180298019,
+   "net_return": -0.012944949241210923,
    "annualized_net": null,
-   "vs_benchmark": -0.014813403533268765,
-   "max_drawdown": -0.008389886767463772,
-   "sharpe": -2.3387652800515433,
+   "vs_benchmark": -0.018036013193604927,
+   "max_drawdown": -0.012935918363652932,
+   "sharpe": -4.662098948427369,
    "win_rate": null,
    "adherence": 1.0,
    "fills": 10,
    "closed_trades": 0,
    "rejected": 0,
-   "nav_per_unit": 99.3888553819702,
+   "nav_per_unit": 98.7055050758789,
    "nav_series": [
     99.912755,
     99.672925,
@@ -84,7 +86,8 @@
     99.321912,
     99.815955,
     99.160104,
-    99.388855
+    99.388855,
+    98.705505
    ]
   },
   {
@@ -92,17 +95,17 @@
    "fund_name": "Druckotter's Liquidity Fund (virtual)",
    "mandate": "Follow the money supply and the cycle; concentrate when the evidence lines up, cut fast when it breaks.",
    "joined": "2026-10-30",
-   "net_return": -0.0015206818295284696,
+   "net_return": -0.0031253774548336555,
    "annualized_net": null,
-   "vs_benchmark": -0.010222639182499216,
-   "max_drawdown": -0.001739588525632163,
-   "sharpe": -4.968555591150475,
+   "vs_benchmark": -0.00821644140722766,
+   "max_drawdown": -0.0033439367081192772,
+   "sharpe": -7.70656854980502,
    "win_rate": 0.0,
    "adherence": 0.875,
    "fills": 6,
    "closed_trades": 1,
    "rejected": 1,
-   "nav_per_unit": 99.84793181704715,
+   "nav_per_unit": 99.68746225451663,
    "nav_series": [
     99.991636,
     99.978531,
@@ -111,7 +114,8 @@
     100.021929,
     99.974132,
     99.874692,
-    99.847932
+    99.847932,
+    99.687462
    ]
   },
   {
@@ -119,17 +123,17 @@
    "fund_name": "Markiquill's Cycle Fund (virtual)",
    "mandate": "Lean in when fear is extreme, build cash when money is easy; cash is a legitimate position.",
    "joined": "2026-10-30",
-   "net_return": 0.0003241022104492064,
+   "net_return": -0.0007509023946532523,
    "annualized_net": null,
-   "vs_benchmark": -0.00837785514252154,
+   "vs_benchmark": -0.005841966347047256,
    "max_drawdown": -0.004213380931388122,
-   "sharpe": 0.2848020028149966,
+   "sharpe": -0.5578944778406011,
    "win_rate": null,
    "adherence": 1.0,
    "fills": 3,
    "closed_trades": 0,
    "rejected": 0,
-   "nav_per_unit": 100.03241022104493,
+   "nav_per_unit": 99.92490976053467,
    "nav_series": [
     100.0,
     99.93969,
@@ -138,7 +142,8 @@
     99.88399,
     99.98038,
     99.92477,
-    100.03241
+    100.03241,
+    99.92491
    ]
   },
   {
@@ -146,17 +151,17 @@
    "fund_name": "Sorosaurus's Boom-Bust Fund (virtual)",
    "mandate": "Ride a popular story while it feeds on itself, with a stated level that proves it wrong on every position.",
    "joined": "2026-10-30",
-   "net_return": 5.9111270294121e-05,
+   "net_return": 0.00027781155258188583,
    "annualized_net": null,
-   "vs_benchmark": -0.008642846082676625,
+   "vs_benchmark": -0.004813252399812118,
    "max_drawdown": -0.0024739677053676745,
-   "sharpe": 0.37743333134993573,
+   "sharpe": 0.6835847482405716,
    "win_rate": null,
    "adherence": 1.0,
    "fills": 1,
    "closed_trades": 0,
    "rejected": 0,
-   "nav_per_unit": 100.00591112702942,
+   "nav_per_unit": 100.02778115525818,
    "nav_series": [
     99.982721,
     100.045621,
@@ -165,7 +170,8 @@
     100.253936,
     100.080521,
     100.117221,
-    100.005911
+    100.005911,
+    100.027781
    ]
   }
  ]

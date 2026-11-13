@@ -1,9 +1,9 @@
 {
- "session": "2026-11-12",
- "cutoff": "2026-11-12T13:34:32-08:00",
- "cutoff_run_id": "setups@2026-11-12T13:30:11-08:00",
- "generated": "2026-11-12T13:34:32-08:00",
- "for_date": "2026-11-13",
+ "session": "2026-11-13",
+ "cutoff": "2026-11-13T13:33:33-08:00",
+ "cutoff_run_id": "setups@2026-11-13T13:30:10-08:00",
+ "generated": "2026-11-13T13:33:33-08:00",
+ "for_date": "2026-11-16",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "witness": "unwitnessed",
  "witness_note": "hashes are local only (unwitnessed): no public timestamp yet",
@@ -12,111 +12,80 @@
   {
    "slug": "umbrella-ella",
    "status": "committed",
-   "sha256": "74d2f0bbbf957e7aea5d67260dcef6f1866117c6ed249d4816246a5806a2e842",
-   "file": "setups/2026-11-13/umbrella-ella.jsonl",
-   "committed_at": "2026-11-12T13:31:44-08:00",
-   "setups": [
-    {
-     "direction": "long",
-     "entry_trigger": {
-      "ivr_min": null,
-      "price": null,
-      "type": "at_open",
-      "underlying_above": null,
-      "underlying_below": null,
-      "vix_max": null,
-      "vix_min": null
-     },
-     "for_date": "2026-11-13",
-     "instrument": "stock",
-     "kind": "setup",
-     "rule_cited": "Long-Term Debt Cycle stage-3 rubric (cash gets temporarily un-trashed at the top) + Diversification is the holy grail",
-     "setup_id": "2026-11-13-umbrella-ella-1",
-     "size_pct": 4.93,
-     "slug": "umbrella-ella",
-     "stop": 56.8,
-     "structure": "stock",
-     "symbol": "SHY",
-     "target": {
-      "price": null,
-      "profit_pct": null
-     },
-     "teach": "Short-term government bonds barely move in price, giving a portfolio a calm place to sit when everything else gets shaky.",
-     "time_stop_days": null,
-     "valid_until": "2026-11-13",
-     "why": "Stocks and long bonds are wobbling together while short-term rates sit near four percent, so a safer short-term bond adds real ballast."
-    }
-   ]
+   "sha256": "31dbae2ce95c76e0ba0047c90801a4b2823658618e541ae1a8183bd2ef1e42de",
+   "file": "setups/2026-11-16/umbrella-ella.jsonl",
+   "committed_at": "2026-11-13T13:31:31-08:00",
+   "setups": []
   },
   {
    "slug": "macro-max",
    "status": "committed",
-   "sha256": "daec22c9b5ae3a55e9910a1d8bfb2f3f7b518c111b9d8d5d8a27287ed0305753",
-   "file": "setups/2026-11-13/macro-max.jsonl",
-   "committed_at": "2026-11-12T13:32:25-08:00",
-   "setups": []
-  },
-  {
-   "slug": "careful-carl",
-   "status": "committed",
-   "sha256": "e52fc7beffada40928fc8ea72b988d71d99c12337b73abb63163ed1f8201bb1b",
-   "file": "setups/2026-11-13/careful-carl.jsonl",
-   "committed_at": "2026-11-12T13:33:07-08:00",
-   "setups": []
-  },
-  {
-   "slug": "breakout-bea",
-   "status": "committed",
-   "sha256": "c26ecff41fd68f39488b768b25b2ce564a3eb959a538dedecbc848835a0cccea",
-   "file": "setups/2026-11-13/breakout-bea.jsonl",
-   "committed_at": "2026-11-12T13:30:34-08:00",
-   "setups": []
-  },
-  {
-   "slug": "reflexive-rex",
-   "status": "committed",
-   "sha256": "6533f2a4f34704483bdf9f72a989abce3a0d189266932ec9f0599d44b540f335",
-   "file": "setups/2026-11-13/reflexive-rex.jsonl",
-   "committed_at": "2026-11-12T13:34:32-08:00",
+   "sha256": "9555f7c036cf1b836b4951bd1cb76a1353f7ef525fe65f19c3ac39a5eb73e142",
+   "file": "setups/2026-11-16/macro-max.jsonl",
+   "committed_at": "2026-11-13T13:32:21-08:00",
    "setups": [
     {
      "direction": "long",
      "entry_trigger": {
       "ivr_min": null,
-      "price": 26.35,
+      "price": 29.7,
       "type": "buy_stop",
       "underlying_above": null,
       "underlying_below": null,
       "vix_max": null,
       "vix_min": null
      },
-     "for_date": "2026-11-13",
+     "for_date": "2026-11-16",
      "instrument": "stock",
      "kind": "setup",
-     "rule_cited": "Bias-Gap Framework (flawed premise: imminent rate relief) + Reflexivity-stage rubric (stage 2, acceleration) + Vehicle-Match Framework (stock fits a multi-month horizon with no decay)",
-     "setup_id": "2026-11-13-reflexive-rex-1",
-     "size_pct": 9.79,
-     "slug": "reflexive-rex",
-     "stop": 25.2,
+     "rule_cited": "Macro-tape coherence rubric (dominant variable: dollar/liquidity tightening) + Decision rule: conviction below eight gets starter size only",
+     "setup_id": "2026-11-16-macro-max-1",
+     "size_pct": 1.98,
+     "slug": "macro-max",
+     "stop": 28.3,
      "structure": "stock",
-     "symbol": "TBF",
+     "symbol": "UUP",
      "target": {
-      "price": 29.0,
+      "price": 31.8,
       "profit_pct": null
      },
-     "teach": "When the crowd expects one thing but the actual data keeps showing the opposite, that gap can be the real trade.",
-     "time_stop_days": null,
-     "valid_until": "2026-11-13",
-     "why": "Long-term bond yields keep climbing even though many expect the Fed to cut soon; this fund gains if yields keep rising, not falling."
+     "teach": "A small starter position lets you act on a trend you believe in without risking much if you're wrong.",
+     "time_stop_days": 40,
+     "valid_until": "2026-11-16",
+     "why": "The dollar has climbed for three months straight while gold and copper keep falling, so I'm taking a small bet it keeps rising."
     }
    ]
   },
   {
+   "slug": "careful-carl",
+   "status": "committed",
+   "sha256": "008b217ad73b49041b2854908a4b8744d54ba1eff8b6fd3ff135ddcce7ce39b0",
+   "file": "setups/2026-11-16/careful-carl.jsonl",
+   "committed_at": "2026-11-13T13:32:57-08:00",
+   "setups": []
+  },
+  {
+   "slug": "breakout-bea",
+   "status": "committed",
+   "sha256": "8c3172ba9d4f96568ec92af98dc1f092fc2bfe9310403cdf5b0ed431aea13905",
+   "file": "setups/2026-11-16/breakout-bea.jsonl",
+   "committed_at": "2026-11-13T13:30:18-08:00",
+   "setups": []
+  },
+  {
+   "slug": "reflexive-rex",
+   "status": "committed",
+   "sha256": "dd07e3f83016a8a517155fd5a32815878ac9d9e737a658288c1983f6aff2ed37",
+   "file": "setups/2026-11-16/reflexive-rex.jsonl",
+   "committed_at": "2026-11-13T13:33:33-08:00",
+   "setups": []
+  },
+  {
    "slug": "premium-pete",
    "status": "committed",
-   "sha256": "3531eba683fcbda5357666ace9fb18e9f6341c9533b325b737b453ef52fc7707",
-   "file": "setups/2026-11-13/premium-pete.jsonl",
-   "committed_at": "2026-11-12T13:30:59-08:00",
+   "sha256": "e6b0043cb10579776ea5210bcc28cb42ce84e342b514c1dc28181dec8d40bd51",
+   "file": "setups/2026-11-16/premium-pete.jsonl",
+   "committed_at": "2026-11-13T13:30:47-08:00",
    "setups": []
   }
  ]

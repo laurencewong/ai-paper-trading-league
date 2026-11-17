@@ -1,22 +1,46 @@
 {
- "session": "2026-11-16",
- "cutoff": "2026-11-16T13:33:46-08:00",
- "cutoff_run_id": "setups@2026-11-16T13:30:14-08:00",
- "generated": "2026-11-16T13:33:46-08:00",
- "receipts_day": "2026-11-16",
+ "session": "2026-11-17",
+ "cutoff": "2026-11-17T13:33:37-08:00",
+ "cutoff_run_id": "setups@2026-11-17T13:30:11-08:00",
+ "generated": "2026-11-17T13:33:37-08:00",
+ "receipts_day": "2026-11-17",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "receipts": [
   {
-   "setup_id": "2026-11-16-macro-max-1",
+   "setup_id": "2026-11-17-macro-max-1",
    "slug": "macro-max",
-   "for_date": "2026-11-16",
+   "for_date": "2026-11-17",
    "symbol": "UUP",
    "state": "not_triggered",
-   "ts": "2026-11-16T13:31:26-08:00",
+   "ts": "2026-11-17T13:32:01-08:00",
    "r_multiple": 0.0,
-   "committed_at": "2026-11-13T13:32:21-08:00",
-   "sha256_short": "9555f7c0",
-   "setup_file": "setups/2026-11-16/macro-max.jsonl"
+   "committed_at": "2026-11-16T13:32:08-08:00",
+   "sha256_short": "f8a8b61f",
+   "setup_file": "setups/2026-11-17/macro-max.jsonl"
+  },
+  {
+   "setup_id": "2026-11-17-macro-max-2",
+   "slug": "macro-max",
+   "for_date": "2026-11-17",
+   "symbol": "TBF",
+   "state": "not_triggered",
+   "ts": "2026-11-17T13:32:01-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-16T13:32:08-08:00",
+   "sha256_short": "f8a8b61f",
+   "setup_file": "setups/2026-11-17/macro-max.jsonl"
+  },
+  {
+   "setup_id": "2026-11-17-reflexive-rex-1",
+   "slug": "reflexive-rex",
+   "for_date": "2026-11-17",
+   "symbol": "UUP",
+   "state": "not_triggered",
+   "ts": "2026-11-17T13:33:03-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-16T13:33:46-08:00",
+   "sha256_short": "fff886a1",
+   "setup_file": "setups/2026-11-17/reflexive-rex.jsonl"
   }
  ],
  "system_gaps": []

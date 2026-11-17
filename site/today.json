@@ -1,9 +1,9 @@
 {
- "session": "2026-11-16",
- "cutoff": "2026-11-16T13:33:46-08:00",
- "cutoff_run_id": "setups@2026-11-16T13:30:14-08:00",
- "generated": "2026-11-16T13:33:46-08:00",
- "for_date": "2026-11-17",
+ "session": "2026-11-17",
+ "cutoff": "2026-11-17T13:33:37-08:00",
+ "cutoff_run_id": "setups@2026-11-17T13:30:11-08:00",
+ "generated": "2026-11-17T13:33:37-08:00",
+ "for_date": "2026-11-18",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "witness": "unwitnessed",
  "witness_note": "hashes are local only (unwitnessed): no public timestamp yet",
@@ -12,17 +12,17 @@
   {
    "slug": "umbrella-ella",
    "status": "committed",
-   "sha256": "26ac936a35bfc5e9285e022128ba77154f8c4ba98d4af4ee4ddedec67cc45cde",
-   "file": "setups/2026-11-17/umbrella-ella.jsonl",
-   "committed_at": "2026-11-16T13:31:26-08:00",
+   "sha256": "a577b761f8a27d5d613a756d21c01b37e0fb7804dab68070bfad0f01dc2ff530",
+   "file": "setups/2026-11-18/umbrella-ella.jsonl",
+   "committed_at": "2026-11-17T13:32:01-08:00",
    "setups": []
   },
   {
    "slug": "macro-max",
    "status": "committed",
-   "sha256": "f8a8b61f95c01b9a20ffba13e555d3df5b4d2f140367833ba37cca9a134cb7d3",
-   "file": "setups/2026-11-17/macro-max.jsonl",
-   "committed_at": "2026-11-16T13:32:08-08:00",
+   "sha256": "be9bd501ea8091925800658ecb2182a74797389ff8b5a99063e2e648334df09e",
+   "file": "setups/2026-11-18/macro-max.jsonl",
+   "committed_at": "2026-11-17T13:32:35-08:00",
    "setups": [
     {
      "direction": "long",
@@ -35,118 +35,57 @@
       "vix_max": null,
       "vix_min": null
      },
-     "for_date": "2026-11-17",
+     "for_date": "2026-11-18",
      "instrument": "stock",
      "kind": "setup",
-     "rule_cited": "Macro-First Trade Construction (read dollar, yields, credit tape first) + Decision rule: conviction below eight gets starter size only",
-     "setup_id": "2026-11-17-macro-max-1",
-     "size_pct": 1.99,
+     "rule_cited": "Macro-tape coherence rubric: liquidity is the dominant variable; dollar strength confirms tightening tide",
+     "setup_id": "2026-11-18-macro-max-1",
+     "size_pct": 1.93,
      "slug": "macro-max",
      "stop": 28.7,
      "structure": "stock",
      "symbol": "UUP",
      "target": {
-      "price": 31.2,
+      "price": 31.0,
       "profit_pct": null
      },
-     "teach": "Starting small on a trend lets you test your macro view without risking much money if you're wrong.",
-     "time_stop_days": null,
-     "valid_until": "2026-11-17",
-     "why": "The dollar has climbed sharply this month while interest rates also rise, so I'm starting a small bet the dollar keeps strengthening."
-    },
-    {
-     "direction": "long",
-     "entry_trigger": {
-      "ivr_min": null,
-      "price": 26.5,
-      "type": "buy_stop",
-      "underlying_above": null,
-      "underlying_below": null,
-      "vix_max": null,
-      "vix_min": null
-     },
-     "for_date": "2026-11-17",
-     "instrument": "stock",
-     "kind": "setup",
-     "rule_cited": "Macro-tape coherence rubric (naming rising rates as the dominant variable) + Decision rule: conviction below eight gets starter size only",
-     "setup_id": "2026-11-17-macro-max-2",
-     "size_pct": 1.97,
-     "slug": "macro-max",
-     "stop": 25.0,
-     "structure": "stock",
-     "symbol": "TBF",
-     "target": {
-      "price": 28.6,
-      "profit_pct": null
-     },
-     "teach": "You can bet rates will rise using a fund that moves opposite long-term bonds, instead of borrowing to short them.",
-     "time_stop_days": null,
-     "valid_until": "2026-11-17",
-     "why": "Long-term interest rates have climbed for three months while stocks fall together, so I'm starting a small bet that rates keep rising."
+     "teach": "A strengthening dollar alongside falling commodities signals tightening global liquidity, a tailwind for dollar-long positions.",
+     "time_stop_days": 40,
+     "valid_until": "2026-11-18",
+     "why": "The dollar rose one and a half percent today and almost five percent this month while gold, oil, and copper are falling hard."
     }
    ]
   },
   {
    "slug": "careful-carl",
    "status": "committed",
-   "sha256": "98ecdaaccfedf7c2451c2f1f4e91250214f1634ce78998adae651b6da129ba55",
-   "file": "setups/2026-11-17/careful-carl.jsonl",
-   "committed_at": "2026-11-16T13:32:44-08:00",
+   "sha256": "2672f63eea854318b44132588665033554d4e83fc235a7ba8aadb96f84869ee7",
+   "file": "setups/2026-11-18/careful-carl.jsonl",
+   "committed_at": "2026-11-17T13:33:03-08:00",
    "setups": []
   },
   {
    "slug": "breakout-bea",
    "status": "committed",
-   "sha256": "720662e1791eab9e7db43588f0533b3c270ea8d6431b029dc060b16280ca1180",
-   "file": "setups/2026-11-17/breakout-bea.jsonl",
-   "committed_at": "2026-11-16T13:30:22-08:00",
+   "sha256": "81f5dbe44486658db6b25bd918545fed755743989b51b5461d47d738b6b91160",
+   "file": "setups/2026-11-18/breakout-bea.jsonl",
+   "committed_at": "2026-11-17T13:30:21-08:00",
    "setups": []
   },
   {
    "slug": "reflexive-rex",
    "status": "committed",
-   "sha256": "fff886a14adcf2cf820d28de1b63b1937ac797255a10d4599439aabcad120ff8",
-   "file": "setups/2026-11-17/reflexive-rex.jsonl",
-   "committed_at": "2026-11-16T13:33:46-08:00",
-   "setups": [
-    {
-     "direction": "long",
-     "entry_trigger": {
-      "ivr_min": null,
-      "price": 29.7,
-      "type": "buy_stop",
-      "underlying_above": null,
-      "underlying_below": null,
-      "vix_max": null,
-      "vix_min": null
-     },
-     "for_date": "2026-11-17",
-     "instrument": "stock",
-     "kind": "setup",
-     "rule_cited": "Bias-Gap Framework (flawed premise: gold/silver as universal safe haven) + Reflexivity-stage rubric (2, acceleration) + Vehicle-Match Framework (UUP stock fits a 3-12 month dash-for-cash thesis)",
-     "setup_id": "2026-11-17-reflexive-rex-1",
-     "size_pct": 9.73,
-     "slug": "reflexive-rex",
-     "stop": 28.5,
-     "structure": "stock",
-     "symbol": "UUP",
-     "target": {
-      "price": 31.5,
-      "profit_pct": null
-     },
-     "teach": "When everything sells at once for dollars, that's a liquidity squeeze, not a single market's story.",
-     "time_stop_days": null,
-     "valid_until": "2026-11-17",
-     "why": "The dollar is up about two percent this month while gold fell eight percent and silver fell eighteen percent, a cash grab I'm riding."
-    }
-   ]
+   "sha256": "b7519088f489261fef0cd85b71460898c38ab710c4d3ffb7c45d2b51e563711f",
+   "file": "setups/2026-11-18/reflexive-rex.jsonl",
+   "committed_at": "2026-11-17T13:33:37-08:00",
+   "setups": []
   },
   {
    "slug": "premium-pete",
    "status": "committed",
-   "sha256": "efd194ac17112cf953fe5ac3818f4d16f5f417fe36e26ff0eca07a47eeb21e62",
-   "file": "setups/2026-11-17/premium-pete.jsonl",
-   "committed_at": "2026-11-16T13:30:49-08:00",
+   "sha256": "266d7c7df09fb91416640889578c8c23a2ab6d41f545eaddc1ec4e905808bf47",
+   "file": "setups/2026-11-18/premium-pete.jsonl",
+   "committed_at": "2026-11-17T13:31:32-08:00",
    "setups": []
   }
  ]

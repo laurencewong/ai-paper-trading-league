@@ -1,9 +1,9 @@
 {
- "session": "2026-11-18",
- "cutoff": "2026-11-18T13:33:44-08:00",
- "cutoff_run_id": "setups@2026-11-18T13:30:12-08:00",
- "generated": "2026-11-18T13:33:44-08:00",
- "for_date": "2026-11-19",
+ "session": "2026-11-19",
+ "cutoff": "2026-11-19T13:34:36-08:00",
+ "cutoff_run_id": "setups@2026-11-19T13:30:12-08:00",
+ "generated": "2026-11-19T13:34:36-08:00",
+ "for_date": "2026-11-20",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "witness": "unwitnessed",
  "witness_note": "hashes are local only (unwitnessed): no public timestamp yet",
@@ -12,49 +12,141 @@
   {
    "slug": "umbrella-ella",
    "status": "committed",
-   "sha256": "ad29126a56a7e2d458e9d236e75f6da0ff5b268e8594f83fc93ff4d6569e93bb",
-   "file": "setups/2026-11-19/umbrella-ella.jsonl",
-   "committed_at": "2026-11-18T13:31:24-08:00",
-   "setups": []
+   "sha256": "96619b55cc34a4b16f0b255c6a8a4b715ee9b7814b89a69fab1cbc972b861207",
+   "file": "setups/2026-11-20/umbrella-ella.jsonl",
+   "committed_at": "2026-11-19T13:32:22-08:00",
+   "setups": [
+    {
+     "direction": "long",
+     "entry_trigger": {
+      "ivr_min": null,
+      "price": 58.3,
+      "type": "buy_stop",
+      "underlying_above": 58.3,
+      "underlying_below": null,
+      "vix_max": null,
+      "vix_min": null
+     },
+     "for_date": "2026-11-20",
+     "instrument": "stock",
+     "kind": "setup",
+     "rule_cited": "Four Quadrants framework; Long-Term Debt Cycle stage rubric",
+     "setup_id": "2026-11-20-umbrella-ella-1",
+     "size_pct": 4.79,
+     "slug": "umbrella-ella",
+     "stop": 53.5,
+     "structure": "stock",
+     "symbol": "EDV",
+     "target": {
+      "price": null,
+      "profit_pct": null
+     },
+     "teach": "When stocks, gold, and commodities fall together, that often means growth is weakening faster than inflation, which favors long-term bonds.",
+     "time_stop_days": 20,
+     "valid_until": "2026-11-20",
+     "why": "Stocks, gold, and oil are all falling together while long bonds hold steady, so I'm adding a small, confirmed bet that safe bonds keep winning."
+    }
+   ]
   },
   {
    "slug": "macro-max",
    "status": "committed",
-   "sha256": "8a3372f363218bde0415d31f76863dc07145451c1a4a85e6d5fec5c2d90695d1",
-   "file": "setups/2026-11-19/macro-max.jsonl",
-   "committed_at": "2026-11-18T13:32:04-08:00",
-   "setups": []
+   "sha256": "bd687747f1813ec5c3d469ecd36b5d04d141150d33f99ef029312654049fc2f7",
+   "file": "setups/2026-11-20/macro-max.jsonl",
+   "committed_at": "2026-11-19T13:33:30-08:00",
+   "setups": [
+    {
+     "direction": "long",
+     "entry_trigger": {
+      "ivr_min": null,
+      "price": 29.75,
+      "type": "buy_stop",
+      "underlying_above": null,
+      "underlying_below": null,
+      "vix_max": null,
+      "vix_min": null
+     },
+     "for_date": "2026-11-20",
+     "instrument": "stock",
+     "kind": "setup",
+     "rule_cited": "Macro-First Trade Construction: read the tape (dollar, yields, credit) before picking the vehicle",
+     "setup_id": "2026-11-20-macro-max-1",
+     "size_pct": 7.96,
+     "slug": "macro-max",
+     "stop": 28.8,
+     "structure": "stock",
+     "symbol": "UUP",
+     "target": {
+      "price": null,
+      "profit_pct": 8.0
+     },
+     "teach": "A dollar that keeps climbing for months tends to pull money away from stocks, commodities, and emerging markets.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-20",
+     "why": "The dollar has risen steadily for three months while stocks and commodities fall; that usually keeps pulling cash out of risky assets."
+    },
+    {
+     "direction": "long",
+     "entry_trigger": {
+      "ivr_min": null,
+      "price": 34.9,
+      "type": "buy_stop",
+      "underlying_above": null,
+      "underlying_below": null,
+      "vix_max": null,
+      "vix_min": null
+     },
+     "for_date": "2026-11-20",
+     "instrument": "stock",
+     "kind": "setup",
+     "rule_cited": "Cycle-Aware Tape Reading: liquidity-driven moves need tighter thesis checks; Decision rule: conviction below eight gets only a starter size",
+     "setup_id": "2026-11-20-macro-max-2",
+     "size_pct": 1.98,
+     "slug": "macro-max",
+     "stop": 33.2,
+     "structure": "stock",
+     "symbol": "SH",
+     "target": {
+      "price": null,
+      "profit_pct": 10.0
+     },
+     "teach": "A fund that rises when the market falls lets you profit from, or hedge against, a continuing downtrend.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-20",
+     "why": "Stocks fell again today and credit markets are getting shakier too, so I'm taking a small bet that the slide in the market continues."
+    }
+   ]
   },
   {
    "slug": "careful-carl",
    "status": "committed",
-   "sha256": "f62c1cd2448f204f9a2a41b65f241af0b8ca332e90f7e0077320134dc96639b3",
-   "file": "setups/2026-11-19/careful-carl.jsonl",
-   "committed_at": "2026-11-18T13:32:49-08:00",
+   "sha256": "559f9537f984c5b1954e011b9c64cdeadad651f4528a599ff0b1652a748756e9",
+   "file": "setups/2026-11-20/careful-carl.jsonl",
+   "committed_at": "2026-11-19T13:34:09-08:00",
    "setups": []
   },
   {
    "slug": "breakout-bea",
    "status": "committed",
-   "sha256": "c2b28ade09477fcb4f39722831b0ef5ec6e53f02f93cc01d4ca2fb1a8b6648b5",
-   "file": "setups/2026-11-19/breakout-bea.jsonl",
-   "committed_at": "2026-11-18T13:30:38-08:00",
+   "sha256": "ba2a976f66e2ffd7624a6409e3e2520067562506c1bdc3270343f6b30cc89275",
+   "file": "setups/2026-11-20/breakout-bea.jsonl",
+   "committed_at": "2026-11-19T13:30:19-08:00",
    "setups": []
   },
   {
    "slug": "reflexive-rex",
    "status": "committed",
-   "sha256": "67e1aa8e72460548884b34ba05d68ac31d56361f91de387e324e7a92c7057cb2",
-   "file": "setups/2026-11-19/reflexive-rex.jsonl",
-   "committed_at": "2026-11-18T13:33:44-08:00",
+   "sha256": "973ff8939879a99492b79ff062c7e699a739a11a3722aea87ef050cb177e22b0",
+   "file": "setups/2026-11-20/reflexive-rex.jsonl",
+   "committed_at": "2026-11-19T13:34:36-08:00",
    "setups": []
   },
   {
    "slug": "premium-pete",
    "status": "committed",
-   "sha256": "b2169aad8993c1cd5dae47cbf2513147177f5724b7b28f8e20285c37309d6856",
-   "file": "setups/2026-11-19/premium-pete.jsonl",
-   "committed_at": "2026-11-18T13:31:01-08:00",
+   "sha256": "18c7a275d1214c1511aaf44910621d3e348a554d9d7a0022e01ee94d83799570",
+   "file": "setups/2026-11-20/premium-pete.jsonl",
+   "committed_at": "2026-11-19T13:31:47-08:00",
    "setups": []
   }
  ]

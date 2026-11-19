@@ -1,22 +1,22 @@
 {
- "session": "2026-11-18",
- "cutoff": "2026-11-18T13:33:44-08:00",
- "cutoff_run_id": "setups@2026-11-18T13:30:12-08:00",
- "generated": "2026-11-18T14:05:00-08:00",
+ "session": "2026-11-19",
+ "cutoff": "2026-11-19T13:34:36-08:00",
+ "cutoff_run_id": "setups@2026-11-19T13:30:12-08:00",
+ "generated": "2026-11-19T14:05:03-08:00",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "value_rule": "stocks: market value at the last mark; options: capital at risk (collateral, or premium paid)",
  "funds": [
   {
    "slug": "breakout-bea",
    "status": "in cash",
-   "as_of": "2026-11-18T13:30:38-08:00",
+   "as_of": "2026-11-19T13:30:19-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "premium-pete",
    "status": "invested",
-   "as_of": "2026-11-18T13:31:01-08:00",
+   "as_of": "2026-11-19T13:31:47-08:00",
    "largest": {
     "symbol": "TLT",
     "instrument": "option",
@@ -56,14 +56,14 @@
   {
    "slug": "umbrella-ella",
    "status": "invested",
-   "as_of": "2026-11-18T13:31:24-08:00",
+   "as_of": "2026-11-19T13:32:22-08:00",
    "largest": {
     "symbol": "TLT",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Risk-parity: balance risk contributions, not dollar weights",
-    "position_value": 9787,
+    "position_value": 9803,
     "value_basis": "market value",
     "pct_of_fund": 10.1,
     "entry_date": "2026-10-30"
@@ -75,7 +75,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Risk-parity: balance risk contributions, not dollar weights",
-     "position_value": 9787,
+     "position_value": 9803,
      "value_basis": "market value",
      "pct_of_fund": 10.1,
      "entry_date": "2026-10-30"
@@ -86,9 +86,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework; Diversification is the holy grail",
-     "position_value": 8886,
+     "position_value": 8900,
      "value_basis": "market value",
-     "pct_of_fund": 9.1,
+     "pct_of_fund": 9.2,
      "entry_date": "2026-10-30"
     },
     {
@@ -97,9 +97,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework; Diversification is the holy grail",
-     "position_value": 8762,
+     "position_value": 8590,
      "value_basis": "market value",
-     "pct_of_fund": 9.0,
+     "pct_of_fund": 8.9,
      "entry_date": "2026-10-30"
     },
     {
@@ -108,7 +108,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Markets discount the future, not the present; Four Quadrants framework",
-     "position_value": 7850,
+     "position_value": 7879,
      "value_basis": "market value",
      "pct_of_fund": 8.1,
      "entry_date": "2026-10-30"
@@ -119,7 +119,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Diversification is the holy grail",
-     "position_value": 6911,
+     "position_value": 6906,
      "value_basis": "market value",
      "pct_of_fund": 7.1,
      "entry_date": "2026-10-30"
@@ -130,9 +130,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework",
-     "position_value": 6819,
+     "position_value": 6827,
      "value_basis": "market value",
-     "pct_of_fund": 7.0,
+     "pct_of_fund": 7.1,
      "entry_date": "2026-10-30"
     },
     {
@@ -141,9 +141,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Diversification is the holy grail",
-     "position_value": 5734,
+     "position_value": 5650,
      "value_basis": "market value",
-     "pct_of_fund": 5.9,
+     "pct_of_fund": 5.8,
      "entry_date": "2026-10-30"
     },
     {
@@ -152,9 +152,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework",
-     "position_value": 5459,
+     "position_value": 5363,
      "value_basis": "market value",
-     "pct_of_fund": 5.6,
+     "pct_of_fund": 5.5,
      "entry_date": "2026-10-30"
     },
     {
@@ -163,7 +163,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Long-Term Debt Cycle stage-3 rubric (cash gets temporarily un-trashed at the top) + Diversification is the holy grail",
-     "position_value": 4880,
+     "position_value": 4883,
      "value_basis": "market value",
      "pct_of_fund": 5.0,
      "entry_date": "2026-11-13"
@@ -174,9 +174,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants framework",
-     "position_value": 4838,
+     "position_value": 4739,
      "value_basis": "market value",
-     "pct_of_fund": 5.0,
+     "pct_of_fund": 4.9,
      "entry_date": "2026-10-30"
     },
     {
@@ -185,9 +185,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "[redacted] + Four Quadrants framework (growth-up/inflation-down sleeve)",
-     "position_value": 4592,
+     "position_value": 4491,
      "value_basis": "market value",
-     "pct_of_fund": 4.7,
+     "pct_of_fund": 4.6,
      "entry_date": "2026-11-02"
     }
    ]
@@ -195,14 +195,14 @@
   {
    "slug": "macro-max",
    "status": "invested",
-   "as_of": "2026-11-18T13:32:04-08:00",
+   "as_of": "2026-11-19T13:33:30-08:00",
    "largest": {
     "symbol": "TLT",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Macro-First Trade Construction: read the tape (yield curve, credit, dollar) before picking the vehicle",
-    "position_value": 9787,
+    "position_value": 9803,
     "value_basis": "market value",
     "pct_of_fund": 9.8,
     "entry_date": "2026-10-30"
@@ -214,7 +214,7 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Macro-First Trade Construction: read the tape (yield curve, credit, dollar) before picking the vehicle",
-     "position_value": 9787,
+     "position_value": 9803,
      "value_basis": "market value",
      "pct_of_fund": 9.8,
      "entry_date": "2026-10-30"
@@ -225,48 +225,26 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Macro-tape coherence rubric (naming the dominant variable) + Decision rule: conviction <8 => starter 1-2% only",
-     "position_value": 2055,
+     "position_value": 2101,
      "value_basis": "market value",
      "pct_of_fund": 2.1,
      "entry_date": "2026-11-02"
-    },
-    {
-     "symbol": "XLF",
-     "instrument": "stock",
-     "structure": "stock",
-     "direction": "long",
-     "rule_cited": "Macro-tape coherence rubric (naming cycle rotation) + Decision rule: conviction below eight gets starter size only",
-     "position_value": 1862,
-     "value_basis": "market value",
-     "pct_of_fund": 1.9,
-     "entry_date": "2026-11-05"
-    },
-    {
-     "symbol": "XLV",
-     "instrument": "stock",
-     "structure": "stock",
-     "direction": "long",
-     "rule_cited": "Macro-tape coherence rubric + Cycle-Aware Tape Reading (rotation into defensives)",
-     "position_value": 1811,
-     "value_basis": "market value",
-     "pct_of_fund": 1.8,
-     "entry_date": "2026-11-04"
     }
    ]
   },
   {
    "slug": "careful-carl",
    "status": "invested",
-   "as_of": "2026-11-18T13:32:49-08:00",
+   "as_of": "2026-11-19T13:34:09-08:00",
    "largest": {
     "symbol": "IEF",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Where Are We in the Cycle? Q1/Q6 (decelerating growth + early-cycle credit/rate signal)",
-    "position_value": 7888,
+    "position_value": 7901,
     "value_basis": "market value",
-    "pct_of_fund": 7.9,
+    "pct_of_fund": 8.0,
     "entry_date": "2026-11-02"
    },
    "positions": [
@@ -276,9 +254,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Where Are We in the Cycle? Q1/Q6 (decelerating growth + early-cycle credit/rate signal)",
-     "position_value": 7888,
+     "position_value": 7901,
      "value_basis": "market value",
-     "pct_of_fund": 7.9,
+     "pct_of_fund": 8.0,
      "entry_date": "2026-11-02"
     },
     {
@@ -287,9 +265,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "[redacted] rubric + Three-Stage Cycle Detection (growth in bull stage-3 unwind, value not yet euphoric)",
-     "position_value": 7522,
+     "position_value": 7404,
      "value_basis": "market value",
-     "pct_of_fund": 7.6,
+     "pct_of_fund": 7.5,
      "entry_date": "2026-11-02"
     },
     {
@@ -298,9 +276,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Asymmetric Construction (quality balance sheet = structurally bounded downside)",
-     "position_value": 7455,
+     "position_value": 7365,
      "value_basis": "market value",
-     "pct_of_fund": 7.5,
+     "pct_of_fund": 7.4,
      "entry_date": "2026-11-02"
     }
    ]
@@ -308,16 +286,16 @@
   {
    "slug": "reflexive-rex",
    "status": "invested",
-   "as_of": "2026-11-18T13:33:44-08:00",
+   "as_of": "2026-11-19T13:34:36-08:00",
    "largest": {
     "symbol": "PSQ",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
     "rule_cited": "Bias-Gap Framework (flawed premise: AI-capex credit loop) + Reflexivity-stage rubric (3-4, reinforcement/twilight) + Vehicle-Match Framework (PSQ native match vs forced 180+DTE option mismatch)",
-    "position_value": 5137,
+    "position_value": 5252,
     "value_basis": "market value",
-    "pct_of_fund": 5.1,
+    "pct_of_fund": 5.2,
     "entry_date": "2026-10-30"
    },
    "positions": [
@@ -327,9 +305,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Bias-Gap Framework (flawed premise: AI-capex credit loop) + Reflexivity-stage rubric (3-4, reinforcement/twilight) + Vehicle-Match Framework (PSQ native match vs forced 180+DTE option mismatch)",
-     "position_value": 5137,
+     "position_value": 5252,
      "value_basis": "market value",
-     "pct_of_fund": 5.1,
+     "pct_of_fund": 5.2,
      "entry_date": "2026-10-30"
     }
    ]

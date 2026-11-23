@@ -2,7 +2,7 @@
 
 _VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical._
 
-Last updated: 2026-11-20 14:05 PST. Every fund starts with $100,000 of virtual seed capital on its join date; returns are time-weighted NAV/unit since that date, so late joiners are comparable. Ranked on net return.
+Last updated: 2026-11-23 14:05 PST. Every fund starts with $100,000 of virtual seed capital on its join date; returns are time-weighted NAV/unit since that date, so late joiners are comparable. Ranked on net return.
 
 ## Best returns (net return)
 
@@ -10,10 +10,11 @@ Last updated: 2026-11-20 14:05 PST. Every fund starts with $100,000 of virtual s
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Qullabee's Momentum Fund (virtual) | 2026-11-23 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
 | 2 | Sosnoozle's Option Income Fund (virtual) | 2026-11-23 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
-| 3 | Flamalio's Balanced Fund (virtual) | 2026-11-23 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
+| 3 | Warri Buffi's Compounder Fund (virtual) | 2026-11-24 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
 | 4 | Druckotter's Liquidity Fund (virtual) | 2026-11-23 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
 | 5 | Markiquill's Cycle Fund (virtual) | 2026-11-23 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
 | 6 | Sorosaurus's Boom-Bust Fund (virtual) | 2026-11-23 | +0.00% | n/a | n/a | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
+| 7 | Flamalio's Balanced Fund (virtual) | 2026-11-23 | -0.01% | n/a | n/a | +0.00% | n/a | n/a | 100.0% | 1 / 0 | 0 |
 
 Benchmark: SPY price return over each fund's own window (shown in 'vs SPY'); league-start SPY return n/a.
 Rule adherence = orders that passed the deterministic validator / orders proposed. Mechanical exits are automatic and always adherent.
@@ -21,7 +22,8 @@ Sharpe-ish = mean/stdev of daily NAV returns x sqrt(252); n/a under 6 marks.
 
 - **Qullabee's Momentum Fund (virtual)**: Swing-trade the strongest leaders on objective breakout triggers with tight structural stops.
 - **Sosnoozle's Option Income Fund (virtual)**: Sell rich option premium on liquid funds and mega-caps: small positions, mechanical exits, defined risk.
-- **Flamalio's Balanced Fund (virtual)**: Balance risk across growth and inflation regimes, then add small tilts on top.
+- **Warri Buffi's Compounder Fund (virtual)**: Buy durable businesses only at a price written down in advance, then hold for years; sell when the business breaks, not when the price drops.
 - **Druckotter's Liquidity Fund (virtual)**: Follow the money supply and the cycle; concentrate when the evidence lines up, cut fast when it breaks.
 - **Markiquill's Cycle Fund (virtual)**: Lean in when fear is extreme, build cash when money is easy; cash is a legitimate position.
 - **Sorosaurus's Boom-Bust Fund (virtual)**: Ride a popular story while it feeds on itself, with a stated level that proves it wrong on every position.
+- **Flamalio's Balanced Fund (virtual)**: Balance risk across growth and inflation regimes, then add small tilts on top.

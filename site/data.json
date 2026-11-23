@@ -1,8 +1,8 @@
 {
- "session": "2026-11-20",
- "cutoff": "2026-11-20T13:05:15-08:00",
- "cutoff_run_id": "setups@2026-11-20T13:05:14-08:00",
- "generated": "2026-11-20T14:05:00-08:00",
+ "session": "2026-11-23",
+ "cutoff": "2026-11-23T13:33:54-08:00",
+ "cutoff_run_id": "setups@2026-11-23T13:30:13-08:00",
+ "generated": "2026-11-23T14:05:00-08:00",
  "title": "Paper Trading League",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "funds": [
@@ -22,13 +22,35 @@
    "closed_trades": 0,
    "rejected": 0,
    "nav_per_unit": 100.0,
-   "nav_series": []
+   "nav_series": [
+    100.0
+   ]
   },
   {
    "slug": "sosnoozle",
    "fund_name": "Sosnoozle's Option Income Fund (virtual)",
    "mandate": "Sell rich option premium on liquid funds and mega-caps: small positions, mechanical exits, defined risk.",
    "joined": "2026-11-23",
+   "net_return": 0.0,
+   "annualized_net": null,
+   "vs_benchmark": null,
+   "max_drawdown": 0.0,
+   "sharpe": null,
+   "win_rate": null,
+   "adherence": null,
+   "fills": 0,
+   "closed_trades": 0,
+   "rejected": 0,
+   "nav_per_unit": 100.0,
+   "nav_series": [
+    100.0
+   ]
+  },
+  {
+   "slug": "warribuffi",
+   "fund_name": "Warri Buffi's Compounder Fund (virtual)",
+   "mandate": "Buy durable businesses only at a price written down in advance, then hold for years; sell when the business breaks, not when the price drops.",
+   "joined": "2026-11-24",
    "net_return": 0.0,
    "annualized_net": null,
    "vs_benchmark": null,
@@ -47,18 +69,20 @@
    "fund_name": "Flamalio's Balanced Fund (virtual)",
    "mandate": "Balance risk across growth and inflation regimes, then add small tilts on top.",
    "joined": "2026-11-23",
-   "net_return": 0.0,
+   "net_return": -5.9698779296901705e-05,
    "annualized_net": null,
    "vs_benchmark": null,
    "max_drawdown": 0.0,
    "sharpe": null,
    "win_rate": null,
-   "adherence": null,
-   "fills": 0,
+   "adherence": 1.0,
+   "fills": 1,
    "closed_trades": 0,
    "rejected": 0,
-   "nav_per_unit": 100.0,
-   "nav_series": []
+   "nav_per_unit": 99.99403012207031,
+   "nav_series": [
+    99.99403
+   ]
   },
   {
    "slug": "druckotter",
@@ -76,7 +100,9 @@
    "closed_trades": 0,
    "rejected": 0,
    "nav_per_unit": 100.0,
-   "nav_series": []
+   "nav_series": [
+    100.0
+   ]
   },
   {
    "slug": "markiquill",
@@ -94,7 +120,9 @@
    "closed_trades": 0,
    "rejected": 0,
    "nav_per_unit": 100.0,
-   "nav_series": []
+   "nav_series": [
+    100.0
+   ]
   },
   {
    "slug": "sorosaurus",
@@ -112,7 +140,9 @@
    "closed_trades": 0,
    "rejected": 0,
    "nav_per_unit": 100.0,
-   "nav_series": []
+   "nav_series": [
+    100.0
+   ]
   }
  ]
 }

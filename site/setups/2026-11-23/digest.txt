@@ -1,0 +1,7 @@
+# paper league (virtual, hypothetical results): committed setups for 2026-11-23
+d1c2064d98dca79195c3ffa612b53f31958e5c4ae868e9069d2cabc0bc173231  setups/2026-11-23/druckotter.jsonl
+c31abbdc7bc77eaeb9e6723e9d9dbb2080b40a8ce9ead29079b4280995049ec7  setups/2026-11-23/flamalio.jsonl
+6c48d8879d45d1fd5bca38f865db7b5df98675dc41538f085f5a801a13a75ce5  setups/2026-11-23/markiquill.jsonl
+71f566013bb14f336f953cdb3ffb5d9e5ce395f90deacbe46614dfdb1140e319  setups/2026-11-23/qullabee.jsonl
+d440a473d0c8ee770b595d75dc96d7df93627bebf05f78b96d71dcb0bdaa9ca7  setups/2026-11-23/sorosaurus.jsonl
+2979aed8cf62f4b2ab325a83a814ee3cc70a9bb3270f23b066a183747f971799  setups/2026-11-23/sosnoozle.jsonl

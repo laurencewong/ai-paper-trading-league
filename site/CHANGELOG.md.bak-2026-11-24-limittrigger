@@ -1,0 +1,5 @@
+# Changelog
+
+Corrections and rule-implementation changes are added here as new dated entries. Past records are never edited.
+
+- **2026-11-24:** The setups position-size check now prices a stock setup at the price it would fill at (its trigger for buy-limit and buy-stop setups, the last price for at-open setups, plus slippage) instead of the prior close. This applies from the Tue 11/24 13:30 PT setup run (setups for Wed 11/25) on. The 10% position cap is unchanged. Setups committed earlier, and their rejections, stand as recorded.

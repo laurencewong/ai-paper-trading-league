@@ -1,0 +1,16 @@
+# paper league (virtual, hypothetical results): committed setups for 2026-11-25
+376e3d0de84d7d72153cc465a00dedc89cad113daf6ae9ab843e32c2747dfe8a  setups/2026-11-25/druckotter.jsonl
+29bf6702907a25a45c2ddab3bbdcb1c382e1c28e2435ff7864e5a4d40239a383  setups/2026-11-25/flamalio.jsonl
+1459dc8d5fdff1efcb0435220103a9a4e968d51184a10b778758f1fad28bb18f  setups/2026-11-25/markiquill.jsonl
+c8c421121fc9f85a9ac76e2fe6f682194ba87231cb4449c6549adbaab1e2d07c  setups/2026-11-25/qullabee.jsonl
+a7247761439b315983e0e64e2ac9cf66d3871b44e71d94c6bcd67829b10f17b1  setups/2026-11-25/sorosaurus.jsonl
+4b20c0f9d74b9cc8ff5e265952c7fe882a77937ec0b4e5c0c38ea3c7f69899eb  setups/2026-11-25/sosnoozle.jsonl
+bef527c5e908f8a2b67f8f554a63702c15193f2ff164c04a8292ea0080c841db  setups/2026-11-25/warribuffi.jsonl
+70635e3ba92c3e08a99ef919c5e942565d08ad66f6b7ee1954a8dbeabb95577b  ledger/2026-11-24/druckotter/equity.csv
+06ce8f40a06bdd78039e9b91eed2b576168b214ff10137d1231908f6f35822e2  ledger/2026-11-24/flamalio/equity.csv
+6ee8bbdb059b1434c3f1f8187113aace8ed2fc055442e855f3947ac8af1036de  ledger/2026-11-24/flamalio/trades.jsonl
+2ec4e47195764f6060808bcd27b13fd789a42a92e1350e8bf4daa84c262e3e80  ledger/2026-11-24/markiquill/equity.csv
+253a2e7ffbc15b9cf9c64fb26f3f35bf8c3eca4f7ef5dc85832b18a2571fecfb  ledger/2026-11-24/qullabee/equity.csv
+cd01e7a985bb9e174ae6989504b4c6187263fb5c4554e218828959a60a537f6c  ledger/2026-11-24/sorosaurus/equity.csv
+25d642392b54e1bbe6eb4f4fc2c4fb124b8ed45ad333995dc1116ea50cc07d88  ledger/2026-11-24/sosnoozle/equity.csv
+20025b8328250c91287f31aaa044306776710992a03fbf0c18b927d2dfa13e13  ledger/2026-11-24/warribuffi/equity.csv

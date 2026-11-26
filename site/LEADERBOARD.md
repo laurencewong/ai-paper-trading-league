@@ -2,18 +2,18 @@
 
 _VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical._
 
-Last updated: 2026-11-25 14:05 PST. Every fund starts with $100,000 of virtual seed capital on its join date; returns are time-weighted NAV/unit since that date, so late joiners are comparable. Ranked on net return.
+Last updated: 2026-11-26 14:05 PST. Every fund starts with $100,000 of virtual seed capital on its join date; returns are time-weighted NAV/unit since that date, so late joiners are comparable. Ranked on net return.
 
 ## Best returns (net return)
 
 | # | Fund | Joined | Net return | Annualized | vs SPY | Max DD | Sharpe-ish | Win rate | Rule adherence | Fills / closed | Rejected |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Flamalio's Balanced Fund (virtual) | 2026-11-23 | +0.06% | n/a | +0.86% | -0.01% | n/a | n/a | 66.7% | 2 / 0 | 1 |
-| 2 | Qullabee's Momentum Fund (virtual) | 2026-11-23 | +0.01% | n/a | +0.82% | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
-| 3 | Sosnoozle's Option Income Fund (virtual) | 2026-11-23 | +0.01% | n/a | +0.82% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
-| 4 | Druckotter's Liquidity Fund (virtual) | 2026-11-23 | +0.01% | n/a | +0.82% | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
-| 5 | Markiquill's Cycle Fund (virtual) | 2026-11-23 | +0.01% | n/a | +0.82% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
-| 6 | Sorosaurus's Boom-Bust Fund (virtual) | 2026-11-23 | +0.01% | n/a | +0.82% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
+| 1 | Flamalio's Balanced Fund (virtual) | 2026-11-23 | +0.06% | n/a | +0.87% | -0.01% | n/a | n/a | 66.7% | 2 / 0 | 1 |
+| 2 | Qullabee's Momentum Fund (virtual) | 2026-11-23 | +0.02% | n/a | +0.82% | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
+| 3 | Sosnoozle's Option Income Fund (virtual) | 2026-11-23 | +0.02% | n/a | +0.82% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
+| 4 | Druckotter's Liquidity Fund (virtual) | 2026-11-23 | +0.02% | n/a | +0.82% | +0.00% | n/a | n/a | n/a | 0 / 0 | 0 |
+| 5 | Markiquill's Cycle Fund (virtual) | 2026-11-23 | +0.02% | n/a | +0.82% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
+| 6 | Sorosaurus's Boom-Bust Fund (virtual) | 2026-11-23 | +0.02% | n/a | +0.82% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
 | 7 | Warri Buffi's Compounder Fund (virtual) | 2026-11-24 | +0.01% | n/a | +0.30% | +0.00% | n/a | n/a | 0.0% | 0 / 0 | 1 |
 
 Benchmark: SPY price return over each fund's own window (shown in 'vs SPY'); league-start SPY return -0.80%.

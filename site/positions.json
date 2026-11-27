@@ -1,55 +1,66 @@
 {
- "session": "2026-11-26",
- "cutoff": null,
- "cutoff_run_id": null,
- "generated": "2026-11-26T14:05:00-08:00",
+ "session": "2026-11-27",
+ "cutoff": "2026-11-27T13:34:11-08:00",
+ "cutoff_run_id": "setups@2026-11-27T13:30:27-08:00",
+ "generated": "2026-11-27T14:05:00-08:00",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "value_rule": "stocks: market value at the last mark; options: capital at risk (collateral, or premium paid)",
  "funds": [
   {
    "slug": "qullabee",
    "status": "in cash",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:30:35-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "sosnoozle",
    "status": "in cash",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:30:51-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "warribuffi",
    "status": "in cash",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:31:03-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "flamalio",
    "status": "invested",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:31:41-08:00",
    "largest": {
-    "symbol": "TIP",
+    "symbol": "IEF",
     "instrument": "stock",
     "structure": "stock",
     "direction": "long",
-    "rule_cited": "Four Quadrants (inflation-rising, growth-falling hedge) + Diversification is the holy grail",
-    "position_value": 9526,
+    "rule_cited": "Diversification is the holy grail (spread the growth-down bet across bond maturities, not just long bonds)",
+    "position_value": 9899,
     "value_basis": "market value",
-    "pct_of_fund": 9.5,
-    "entry_date": "2026-11-25"
+    "pct_of_fund": 9.9,
+    "entry_date": "2026-11-27"
    },
    "positions": [
+    {
+     "symbol": "IEF",
+     "instrument": "stock",
+     "structure": "stock",
+     "direction": "long",
+     "rule_cited": "Diversification is the holy grail (spread the growth-down bet across bond maturities, not just long bonds)",
+     "position_value": 9899,
+     "value_basis": "market value",
+     "pct_of_fund": 9.9,
+     "entry_date": "2026-11-27"
+    },
     {
      "symbol": "TIP",
      "instrument": "stock",
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants (inflation-rising, growth-falling hedge) + Diversification is the holy grail",
-     "position_value": 9526,
+     "position_value": 9510,
      "value_basis": "market value",
      "pct_of_fund": 9.5,
      "entry_date": "2026-11-25"
@@ -60,9 +71,9 @@
      "structure": "stock",
      "direction": "long",
      "rule_cited": "Four Quadrants (growth-falling diversifier) + Diversification is the holy grail",
-     "position_value": 6014,
+     "position_value": 5902,
      "value_basis": "market value",
-     "pct_of_fund": 6.0,
+     "pct_of_fund": 5.9,
      "entry_date": "2026-11-23"
     }
    ]
@@ -70,21 +81,21 @@
   {
    "slug": "druckotter",
    "status": "in cash",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:32:34-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "markiquill",
    "status": "in cash",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:33:31-08:00",
    "largest": null,
    "positions": []
   },
   {
    "slug": "sorosaurus",
    "status": "in cash",
-   "as_of": "2026-11-26T13:30:30-08:00",
+   "as_of": "2026-11-27T13:34:11-08:00",
    "largest": null,
    "positions": []
   }

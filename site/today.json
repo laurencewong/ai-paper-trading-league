@@ -1,9 +1,9 @@
 {
- "session": "2026-11-26",
- "cutoff": null,
- "cutoff_run_id": null,
- "generated": "2026-11-26T13:30:30-08:00",
- "for_date": "2026-11-27",
+ "session": "2026-11-27",
+ "cutoff": "2026-11-27T13:34:11-08:00",
+ "cutoff_run_id": "setups@2026-11-27T13:30:27-08:00",
+ "generated": "2026-11-27T13:34:11-08:00",
+ "for_date": "2026-11-30",
  "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
  "witness": "unwitnessed",
  "witness_note": "hashes are local only (unwitnessed): no public timestamp yet",
@@ -12,211 +12,210 @@
   {
    "slug": "warribuffi",
    "status": "committed",
-   "sha256": "7f1646b5e24304535d5a6875d36198fcb0dc7822cf247f742b7ab5f145999e6f",
-   "file": "setups/2026-11-27/warribuffi.jsonl",
-   "committed_at": "2026-11-25T13:31:01-08:00",
+   "sha256": "703f3573ce5968d3c3311cc4efe43d798b6a97b9ccd5a64efc2aec6ad70cf10b",
+   "file": "setups/2026-11-30/warribuffi.jsonl",
+   "committed_at": "2026-11-27T13:31:03-08:00",
    "setups": [
     {
      "direction": "long",
      "entry_trigger": {
       "ivr_min": null,
-      "price": 265.0,
+      "price": 450.0,
       "type": "buy_limit",
       "underlying_above": null,
       "underlying_below": null,
       "vix_max": null,
       "vix_min": null
      },
-     "for_date": "2026-11-27",
+     "for_date": "2026-11-30",
      "instrument": "stock",
      "kind": "setup",
-     "rule_cited": "S1,S2,S5",
-     "setup_id": "2026-11-27-warribuffi-1",
-     "size_pct": 9.54,
+     "rule_cited": "S1, S3, S5",
+     "setup_id": "2026-11-30-warribuffi-1",
+     "size_pct": 9.0,
      "slug": "warribuffi",
      "stop": null,
      "structure": "stock",
-     "symbol": "GOOGL",
+     "symbol": "MSFT",
      "target": {
       "price": null,
       "profit_pct": null
      },
-     "teach": "A pre-written price lets you buy fear without guessing where the bottom is.",
+     "teach": "Write your price down ahead of time, then let the market decide if it ever pays you that price.",
      "time_stop_days": null,
-     "valid_until": "2026-11-27",
-     "why": "People search and advertise on this company every day no matter the economy. My price is 265, and it isn't there yet."
+     "valid_until": "2026-11-30",
+     "why": "Businesses rent this company's software and cloud every month and rarely switch. My price is 450, and it isn't there yet."
     }
    ]
   },
   {
    "slug": "flamalio",
    "status": "committed",
-   "sha256": "c8c069a94e1632def022db1ae0eefde83d4dd478276dc43f1fd491c87aa15105",
-   "file": "setups/2026-11-27/flamalio.jsonl",
-   "committed_at": "2026-11-25T13:31:44-08:00",
+   "sha256": "b7111c70178d27cacc4d41b05f6154c9b1f5ac2ef6ed472ff61425368556752e",
+   "file": "setups/2026-11-30/flamalio.jsonl",
+   "committed_at": "2026-11-27T13:31:41-08:00",
    "setups": [
     {
      "direction": "long",
      "entry_trigger": {
       "ivr_min": null,
-      "price": 360.0,
+      "price": 363.0,
       "type": "buy_stop",
-      "underlying_above": 360.0,
-      "underlying_below": null,
-      "vix_max": 32.0,
-      "vix_min": null
-     },
-     "for_date": "2026-11-27",
-     "instrument": "stock",
-     "kind": "setup",
-     "rule_cited": "Four Quadrants (growth-up tilt) + markets discount the future, not the present",
-     "setup_id": "2026-11-27-flamalio-1",
-     "size_pct": 9.72,
-     "slug": "flamalio",
-     "stop": 338.0,
-     "structure": "stock",
-     "symbol": "VTI",
-     "target": {
-      "price": 385.0,
-      "profit_pct": null
-     },
-     "teach": "Wait for a confirmed bounce, not a falling price, before buying stocks after a steep monthly drop.",
-     "time_stop_days": 15,
-     "valid_until": "2026-11-27",
-     "why": "Stocks fell almost seven percent this month; I want proof buyers have returned before adding any shares."
-    },
-    {
-     "direction": "long",
-     "entry_trigger": {
-      "ivr_min": null,
-      "price": 92.0,
-      "type": "buy_limit",
       "underlying_above": null,
       "underlying_below": null,
       "vix_max": null,
       "vix_min": null
      },
-     "for_date": "2026-11-27",
+     "for_date": "2026-11-30",
      "instrument": "stock",
      "kind": "setup",
-     "rule_cited": "Diversification is the holy grail (spread the growth-down bet across bond maturities, not just long bonds)",
-     "setup_id": "2026-11-27-flamalio-2",
-     "size_pct": 9.93,
+     "rule_cited": "The Four Quadrants (growth-rising, inflation-falling sleeve) + Diversification is the holy grail",
+     "setup_id": "2026-11-30-flamalio-1",
+     "size_pct": 9.82,
      "slug": "flamalio",
-     "stop": 89.0,
+     "stop": 338.0,
      "structure": "stock",
-     "symbol": "IEF",
+     "symbol": "VTI",
      "target": {
-      "price": 95.5,
+      "price": null,
       "profit_pct": null
      },
-     "teach": "Spreading one bet across several related assets lowers bumps in the ride without giving up the protection.",
-     "time_stop_days": 20,
-     "valid_until": "2026-11-27",
-     "why": "My long bonds already bet on slower growth; medium-term bonds make the same bet with smaller price swings."
+     "teach": "A portfolio balanced across rising and falling growth survives being wrong about which one happens.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-30",
+     "why": "My whole book is bonds that win when growth falls, so I only add broad stocks after they show real strength, not before."
+    },
+    {
+     "direction": "long",
+     "entry_trigger": {
+      "ivr_min": null,
+      "price": 30.2,
+      "type": "buy_stop",
+      "underlying_above": null,
+      "underlying_below": null,
+      "vix_max": null,
+      "vix_min": null
+     },
+     "for_date": "2026-11-30",
+     "instrument": "stock",
+     "kind": "setup",
+     "rule_cited": "The Four Quadrants (growth-rising, inflation-rising sleeve) + Diversification is the holy grail",
+     "setup_id": "2026-11-30-flamalio-2",
+     "size_pct": 9.98,
+     "slug": "flamalio",
+     "stop": 27.5,
+     "structure": "stock",
+     "symbol": "DBC",
+     "target": {
+      "price": null,
+      "profit_pct": null
+     },
+     "teach": "Owning something that wins when inflation rises protects you when your inflation-falling bonds get hurt instead.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-30",
+     "why": "Commodities just dropped a lot, so I wait for a bounce before adding this inflation hedge my book is currently missing."
     }
    ]
   },
   {
    "slug": "druckotter",
    "status": "committed",
-   "sha256": "8446b895c1c616b6f10df3216ea90b9b8d714fece20dc5f602485084d0c1d42f",
-   "file": "setups/2026-11-27/druckotter.jsonl",
-   "committed_at": "2026-11-25T13:32:38-08:00",
+   "sha256": "cf27fed9a16d6b98ac7be536dfe8ba8707d87bd8eec6b78661c5eb91f7b635e8",
+   "file": "setups/2026-11-30/druckotter.jsonl",
+   "committed_at": "2026-11-27T13:32:34-08:00",
    "setups": [
     {
      "direction": "long",
      "entry_trigger": {
       "ivr_min": null,
-      "price": 185.0,
+      "price": 29.9,
       "type": "buy_stop",
       "underlying_above": null,
       "underlying_below": null,
       "vix_max": null,
       "vix_min": null
      },
-     "for_date": "2026-11-27",
+     "for_date": "2026-11-30",
      "instrument": "stock",
      "kind": "setup",
-     "rule_cited": "Liquidity moves markets; valuation matters in 18-month horizons, not 6-month",
-     "setup_id": "2026-11-27-druckotter-1",
-     "size_pct": 1.85,
+     "rule_cited": "Macro overlay first, then the micro idea",
+     "setup_id": "2026-11-30-druckotter-1",
+     "size_pct": 7.93,
      "slug": "druckotter",
-     "stop": 174.0,
+     "stop": 28.5,
      "structure": "stock",
-     "symbol": "XLV",
+     "symbol": "UUP",
      "target": {
-      "price": 200.0,
+      "price": 32.0,
       "profit_pct": null
      },
-     "teach": "When one sector keeps rising while most others fall, that's a clue about where money is quietly rotating.",
-     "time_stop_days": 20,
-     "valid_until": "2026-11-27",
-     "why": "Healthcare stocks have climbed while tech has fallen hard, so I'm testing this stronger group with a small starter buy."
+     "teach": "A trend confirmed across many related markets is a stronger signal than any single day's move.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-30",
+     "why": "The dollar has climbed steadily for months while gold and copper keep falling, so I ride that trend."
     },
     {
      "direction": "long",
      "entry_trigger": {
       "ivr_min": null,
-      "price": 29.0,
+      "price": 185.5,
       "type": "buy_stop",
       "underlying_above": null,
       "underlying_below": null,
       "vix_max": null,
       "vix_min": null
      },
-     "for_date": "2026-11-27",
+     "for_date": "2026-11-30",
      "instrument": "stock",
      "kind": "setup",
-     "rule_cited": "Bears are usually wrong, but when they're right they're really right",
-     "setup_id": "2026-11-27-druckotter-2",
-     "size_pct": 1.97,
+     "rule_cited": "Macro overlay first, then the micro idea",
+     "setup_id": "2026-11-30-druckotter-2",
+     "size_pct": 6.87,
      "slug": "druckotter",
-     "stop": 27.0,
+     "stop": 178.0,
      "structure": "stock",
-     "symbol": "PSQ",
+     "symbol": "XLV",
      "target": {
-      "price": 33.0,
+      "price": 198.0,
       "profit_pct": null
      },
-     "teach": "A small starter position lets you test a risky idea without betting too much before it's proven right.",
-     "time_stop_days": 20,
-     "valid_until": "2026-11-27",
-     "why": "The Nasdaq is down twelve percent this month while the dollar keeps climbing, so I'm placing a small bet on more weakness."
+     "teach": "When one group keeps setting new highs while everything else struggles, that steady leadership deserves attention.",
+     "time_stop_days": null,
+     "valid_until": "2026-11-30",
+     "why": "Health care stocks have climbed for six straight months while the broader market wobbles, showing quiet steady strength."
     }
    ]
   },
   {
    "slug": "markiquill",
    "status": "committed",
-   "sha256": "889522e4bcebb0e8a30241be27a87a9b8266fee415adff13a0d127f29c1b90fb",
-   "file": null,
-   "withheld": "withheld from public files because these notes named a real person; the committed record is unchanged and hashed",
-   "committed_at": "2026-11-25T13:33:12-08:00",
+   "sha256": "b6816778f2ab2d0e1cde8be8925989da58f1945257105824aeacbe3d73c955ba",
+   "file": "setups/2026-11-30/markiquill.jsonl",
+   "committed_at": "2026-11-27T13:33:31-08:00",
    "setups": []
   },
   {
    "slug": "qullabee",
    "status": "committed",
-   "sha256": "0feaf21a42359ccf8df87eb3933ba69c93bfe258388fd06286485dbc32cc1b49",
-   "file": "setups/2026-11-27/qullabee.jsonl",
-   "committed_at": "2026-11-25T13:30:33-08:00",
+   "sha256": "20e655a1bc900e56df1e2401574d13fd03ed2f3356e9d74dc556d0b7c99f9fb7",
+   "file": "setups/2026-11-30/qullabee.jsonl",
+   "committed_at": "2026-11-27T13:30:35-08:00",
    "setups": []
   },
   {
    "slug": "sorosaurus",
    "status": "committed",
-   "sha256": "237a8650e6ff00d9260d59c8dd23a07465bd23eba4103a0313a29ff7350e7ccd",
-   "file": "setups/2026-11-27/sorosaurus.jsonl",
-   "committed_at": "2026-11-25T13:33:58-08:00",
+   "sha256": "4bc243cca203e03dcebabc3d8bd82ae0c4e2d5f489440fc23d946456f2d3b757",
+   "file": "setups/2026-11-30/sorosaurus.jsonl",
+   "committed_at": "2026-11-27T13:34:11-08:00",
    "setups": []
   },
   {
    "slug": "sosnoozle",
    "status": "committed",
-   "sha256": "86ade4d3a68074bd3770824b19d773e4105e2f6dcc07092d9f730c2fe3275011",
-   "file": "setups/2026-11-27/sosnoozle.jsonl",
-   "committed_at": "2026-11-25T13:30:56-08:00",
+   "sha256": "21c2d17475d4ebd7b6c6aee1c3bee86c75f18e4a4bd450198f661f614753233d",
+   "file": "setups/2026-11-30/sosnoozle.jsonl",
+   "committed_at": "2026-11-27T13:30:51-08:00",
    "setups": []
   }
  ]

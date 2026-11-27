@@ -1,0 +1,73 @@
+{
+ "session": "2026-11-27",
+ "cutoff": "2026-11-27T13:34:11-08:00",
+ "cutoff_run_id": "setups@2026-11-27T13:30:27-08:00",
+ "generated": "2026-11-27T13:34:11-08:00",
+ "cutoff_run_started": "2026-11-27T13:30:27-08:00",
+ "window_open": "2026-11-25T13:33:58-08:00",
+ "disclaimer": "VIRTUAL CAPITAL. Paper-trading simulation: not a real fund, not investment advice, and not an offer to sell or a solicitation to buy any security or interest. No real money, investors, or fees exist. All results are hypothetical.",
+ "receipts": [
+  {
+   "setup_id": "2026-11-27-flamalio-2",
+   "slug": "flamalio",
+   "for_date": "2026-11-27",
+   "symbol": "IEF",
+   "state": "open",
+   "ts": "2026-11-27T06:45:31-08:00",
+   "trigger": "low 91.88 traded through buy-limit 92.0; limit 92.0 = trigger, read as the trigger",
+   "fill_price": 92.046,
+   "committed_at": "2026-11-25T13:31:44-08:00",
+   "sha256_short": "c8c069a9",
+   "setup_file": "setups/2026-11-27/flamalio.jsonl"
+  },
+  {
+   "setup_id": "2026-11-27-warribuffi-1",
+   "slug": "warribuffi",
+   "for_date": "2026-11-27",
+   "symbol": "GOOGL",
+   "state": "not_triggered",
+   "ts": "2026-11-27T13:30:51-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-25T13:31:01-08:00",
+   "sha256_short": "7f1646b5",
+   "setup_file": "setups/2026-11-27/warribuffi.jsonl"
+  },
+  {
+   "setup_id": "2026-11-27-flamalio-1",
+   "slug": "flamalio",
+   "for_date": "2026-11-27",
+   "symbol": "VTI",
+   "state": "not_triggered",
+   "ts": "2026-11-27T13:31:03-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-25T13:31:44-08:00",
+   "sha256_short": "c8c069a9",
+   "setup_file": "setups/2026-11-27/flamalio.jsonl"
+  },
+  {
+   "setup_id": "2026-11-27-druckotter-1",
+   "slug": "druckotter",
+   "for_date": "2026-11-27",
+   "symbol": "XLV",
+   "state": "not_triggered",
+   "ts": "2026-11-27T13:31:41-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-25T13:32:38-08:00",
+   "sha256_short": "8446b895",
+   "setup_file": "setups/2026-11-27/druckotter.jsonl"
+  },
+  {
+   "setup_id": "2026-11-27-druckotter-2",
+   "slug": "druckotter",
+   "for_date": "2026-11-27",
+   "symbol": "PSQ",
+   "state": "not_triggered",
+   "ts": "2026-11-27T13:31:41-08:00",
+   "r_multiple": 0.0,
+   "committed_at": "2026-11-25T13:32:38-08:00",
+   "sha256_short": "8446b895",
+   "setup_file": "setups/2026-11-27/druckotter.jsonl"
+  }
+ ],
+ "system_gaps": []
+}
